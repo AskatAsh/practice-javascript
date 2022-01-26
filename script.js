@@ -1,17 +1,15 @@
-var num1= "99.5";
-var num2= 15;
-console.log(num1+num2);
+// javascript variable declaration
+var tarikh = 26;
+console.log(tarikh);
 
+// javascript string declaration
 var nam = "amr nam askat";
 var boyos = 'amar boyesh 24 bochor';
 var bari = "amar bari boalkhali";
 
-console.log(nam);
-console.log(boyos);
-console.log(bari);
-
+// javascript boolean declaration
 var valo = true;
 var kharap = false;
 
-console.log(valo);
-console.log(kharap);
+// javascript variable declaration rules:
+
