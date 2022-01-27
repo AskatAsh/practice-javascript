@@ -15,4 +15,18 @@ var khiraPrice = 40;
 
 // division in js
 var boroiHalfPrice = boroiPrice / 2;
-console.log(boroiHalfPrice);
+// console.log(boroiHalfPrice);
+
+// special addition of floting points
+var num1 = 0.1;
+var num2 = 0.2;
+var total = num1 + num2;
+// console.log(total);
+
+// var total = total.toFixed(1);
+// console.log(total);
+// var total = parseFloat(total);
+// console.log(total);
+// console.log(total.toFixed(2));
+console.log(parseFloat(total.toFixed(1)));
+
