@@ -29,4 +29,6 @@ var total = num1 + num2;
 // console.log(total);
 // console.log(total.toFixed(2));
 console.log(parseFloat(total.toFixed(1)));
-
+var age = 24;
+var bakiBoyesh = 24%5;
+console.log(bakiBoyesh);
