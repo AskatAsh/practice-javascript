@@ -12,7 +12,7 @@ var buffetPrice = 600;
 //   console.log("Alo vorta painna dail onek moja.")
 // }
 
-var outingCondition = false;
+var outingCondition = true;
 var outingPrice = 52000;
 var outingTimeinHours = 45;
 
@@ -23,9 +23,31 @@ var outingTimeinHours = 45;
 //   console.log("cholo gramer bari beraite jai sent maritn copale nai.")
 // }
 
-if ((outingCondition == true && outingTimeinHours < 40) || outingPrice > 56000){
- console.log("cholo amra ghurte jai sent martin dipe..!!!")
+// if ((outingCondition == true && outingTimeinHours < 40) || outingPrice > 56000){
+//  console.log("cholo amra ghurte jai sent martin dipe..!!!")
+// }
+// else{
+//   console.log("cholo gramer bari beraite jai sent maritn copale nai.")
+// }
+
+var outingVehicle = true;
+
+if (outingCondition == true && outingVehicle == true){
+  if(outingPrice > 51337){
+    console.log("Cholo na ghure asi ojanate...!!!");
+  }
+  else{
+    console.log("Cholo gramer bari berate jai");
+  }
+}
+else if(outingCondition == true && outingTimeinHours > 48){
+  if(outingPrice > 54337 || outingVehicle == true){
+    console.log("Cholo na ghure asi ojanate...!!!");
+  }
+  else{
+    console.log("Cholo gramer bari berate jai");
+  }
 }
 else{
-  console.log("cholo gramer bari beraite jai sent maritn copale nai.")
+  console.log("Kothao jaoar dorkar nai ghore boshe thako");
 }
