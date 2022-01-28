@@ -18,4 +18,17 @@ familyMembers.push("aunt");
 // familyMembers.pop();
 // console.log(familyMembers);
 var otherMembers = familyMembers.pop();
-console.log(otherMembers);
+// console.log(otherMembers);
+
+// Remove an item from the beginning of an array
+var familyAges = [23, 54, 19, 66, 12, 9, 40, 34];
+// console.log(familyAges);
+
+familyAges.shift();
+console.log(familyAges); // removed 23 from the 0 position of the array
+
+var otherAges = familyAges.shift();
+console.log(otherAges);
+
+familyAges.unshift(78, 56); // adds 78 56 at begnning of the array
+console.log(familyAges);
