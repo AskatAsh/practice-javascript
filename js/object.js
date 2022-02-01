@@ -14,3 +14,10 @@ var laptop = {
   price : 35000,
   additional : "m.2 nvme ssd"
 };
+// console.log(student1);
+// console.log(student1.id); // get object using property`
+
+// console.log(laptop.soundSystem);
+var laptopPrice = laptop.price;
+laptop.price = 38000; //set a property of an object
+console.log(laptop);
