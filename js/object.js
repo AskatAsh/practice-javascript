@@ -10,5 +10,7 @@ var laptop = {
   generation : "6th",
   soundSystem : "bang and olufson",
   ram : "4gb",
-  hardDisk : 500
+  hardDisk : 500,
+  price : 35000,
+  additional : "m.2 nvme ssd"
 };
