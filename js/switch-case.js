@@ -12,11 +12,12 @@
 // else {
 //   console.log("the selected color is black");
 // }
-var color = "green";
+var color = "leaves";
 switch(color){
   case "red":
     console.log("This is color red");
     break;
+  case "leaves":
   case "green":
     console.log("This is color green");
     break;
