@@ -19,5 +19,10 @@ var laptop = {
 
 // console.log(laptop.soundSystem);
 var laptopPrice = laptop.price;
-laptop.price = 38000; //set a property of an object
+laptop.price = 38000; //set a property of an object 1st way
+
+laptop["hardDisk"] = "hdd 500gb"; //set a property of an object 2nd way
+
+var laptopRam = "12gb"; //set a property of an object 3rd way
+laptop["ram"] = laptopRam;
 console.log(laptop);
