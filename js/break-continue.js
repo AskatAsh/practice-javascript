@@ -14,11 +14,19 @@
 // }
 
 var numbers = [23, 75, 98, 143, 97, 56, 84, 29, 59, 173, 119];
-for (var i=0; i<numbers.length; i++){
-  // console.log(numbers);
+// for (var i=0; i<numbers.length; i++){
+//   // console.log(numbers);
+//   var num = numbers[i];
+//   console.log(num);
+//   if (num > 150){
+//   break;
+//   }
+// }
+
+for (var i=0; i<=10; i++){
   var num = numbers[i];
-  console.log(num);
-  if (num > 150){
-  break;
+  if(i==4){
+    continue; // here continue skiped array item 97 in position 4.
   }
+  console.log(num);
 }
