@@ -10,4 +10,20 @@ function findLeapYear(yearNum){
 }
 let year = 2023;
 let isLeapYear = findLeapYear(year);
-console.log(isLeapYear);
+console.log("Leap Year :", isLeapYear);
+
+
+// Finding if an age is even or odd
+function ageEvenOdd(ageNum){
+  if((ageNum % 2) == 0){
+    return true;
+    // console.log("Age Even");
+  }
+  else {
+    return false;
+    // console.log("Age Odd");
+  }
+}
+let age = 24;
+let isEvenOdd = ageEvenOdd(age);
+console.log("Given Age :", isEvenOdd);
