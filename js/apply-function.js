@@ -27,3 +27,12 @@ function ageEvenOdd(ageNum){
 let age = 24;
 let isEvenOdd = ageEvenOdd(age);
 console.log("Given Age :", isEvenOdd);
+
+// Hour to minute convertion
+function hourToMinute(hourNum){
+  let toMinute = hourNum * 60;
+  return toMinute;
+}
+let hour = 4;
+let minuteResult = hourToMinute(hour);
+console.log("Given hour to minute is :", minuteResult, "min");
