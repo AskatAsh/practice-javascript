@@ -1,6 +1,6 @@
 // Finding if the given year is leapyear or not
 function findLeapYear(yearNum){
-  if ((yearNum % 4) == 0){
+  if ((yearNum % 4) == 0 && (yearNum % 400) == 0 || (year % 100) != 0){
     // console.log("Leap year!");
     return true;
   }
@@ -9,7 +9,7 @@ function findLeapYear(yearNum){
     return false;
   }
 }
-let year = 2023;
+let year = 2100;
 let isLeapYear = findLeapYear(year);
 console.log("Leap Year :", isLeapYear);
 
