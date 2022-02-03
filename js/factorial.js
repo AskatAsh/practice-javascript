@@ -45,7 +45,7 @@
 // console.log(factoNum+"! factorial is : "+factorial);
 
 
-// calculating factorial using decreamenting loop
+// calculating factorial using decrementing loop
 function calculateFactorial(num){
   let factorial = 1;
   // let i = num;
