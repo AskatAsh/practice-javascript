@@ -9,10 +9,23 @@
 */
 
 // calculating factorial using for loop
-let numFacto = 3;
-let facto = 1;
-for (let i=1; i <= numFacto; i++){
-  // console.log(i);
-  facto = facto * i;
+// let numFacto = 3;
+// let facto = 1;
+// for (let i=1; i <= numFacto; i++){
+//   // console.log(i);
+//   facto = facto * i;
+// }
+// console.log(numFacto+"! factorial is :", facto); // different way of concatenation
+
+
+// function to calculate factorial
+function factorial(numFacto){
+  let facto = 1;
+  for (let i=1; i<=numFacto; i++){
+    facto = facto * i;
+  }
+  return facto;
 }
-console.log(numFacto+"! factorial is :", facto); // different way of concatenation
+let factoValue = 4;
+let factoResult = factorial(factoValue);
+console.log(factoValue+"! factorial is : "+factoResult);
