@@ -1,3 +1,4 @@
+// Finding if the given year is leapyear or not
 function findLeapYear(yearNum){
   if ((yearNum % 4) == 0){
     // console.log("Leap year!");
