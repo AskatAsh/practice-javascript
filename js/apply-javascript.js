@@ -9,7 +9,7 @@ console.log(inches ,"inches to feet is :", toFeet, "ft");
 
 // converting miles to kilometre
 function milesToKilometre(mileNum){
-  let kilometre = mileNum * 1.609344;
+  let kilometre = mileNum * 1.60934;
   return kilometre;
 }
 let miles = 14;
