@@ -15,3 +15,19 @@ function milesToKilometre(mileNum){
 let miles = 14;
 let toKilometre = milesToKilometre(miles);
 console.log(miles, "miles to kilometre is :", toKilometre, "km");
+
+
+// Finding if an age is even or odd
+function ageEvenOdd(myNum){
+  if((myNum % 2) == 0){
+    return true;
+    // console.log("Age Even");
+  }
+  else {
+    return false;
+    // console.log("Age Odd");
+  }
+}
+const num = 25;
+const isEvenOdd = ageEvenOdd(num);
+console.log("Given Number if True even if False odd :", isEvenOdd);
