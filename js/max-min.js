@@ -1,4 +1,6 @@
-let firstNum = 743;
+// finding the biggest number of three values
+
+/* let firstNum = 743;
 let secondNum = 733;
 let thirdNum = 593;
 
@@ -10,4 +12,5 @@ else if (secondNum>firstNum && secondNum>thirdNum){
 }
 else {
   console.log("the third number is bigger:",thirdNum);
-}
+} */
+
