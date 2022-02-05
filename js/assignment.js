@@ -103,3 +103,22 @@ function picnicBudget(memberNum){
 let member = -5;
 let totalBudget = picnicBudget(member);
 console.log("total picnic budget is :", totalBudget);
+
+
+
+
+// problem 4: odd friend
+function oddFriend(arr) {
+  let oddName = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length % 2 != 0) {
+      oddName = arr[i];
+      return oddName;
+    } else {
+      return "there is no oddName";
+    }
+  }
+}
+let friendList = ["askat", "abdul", "aziza", "shelina", "afiaa", "begum"];
+let result = oddFriend(friendList);
+console.log(result);
