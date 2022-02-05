@@ -75,3 +75,31 @@ let jilapiNum = 4;
 let totalCost = pandaCost(singaraNum, somusaNum, jilapiNum);
 console.log("Total panda cost is :", totalCost);
 
+
+
+
+// problem 3: picnic budget
+function picnicBudget(memberNum){
+  // let perhead;
+  const firstHundred = 100;
+  const secondHundred = 100;
+  let totalCost;
+  if (memberNum <= 100 && memberNum > 0){
+    totalCost = memberNum * 5000;
+  }
+  else if (memberNum >= 100 && memberNum <= 200){
+    let remainder = memberNum % 100;
+    totalCost = (firstHundred*5000)+(remainder*4000);
+  }
+  else if (memberNum >= 200){
+    let remainder = memberNum % 200;
+    totalCost = (firstHundred*5000)+(secondHundred*4000)+(remainder*3000)
+  }
+  else {
+    return "No one wants to go to picnic";
+  }
+  return totalCost;
+}
+let member = -5;
+let totalBudget = picnicBudget(member);
+console.log("total picnic budget is :", totalBudget);
