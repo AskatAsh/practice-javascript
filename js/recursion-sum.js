@@ -8,10 +8,20 @@
 
 
 // sum of numbers using recursion
-function sum(i){
+// function sum(i){
+//   console.log(i);
+//   return i + sum(i--); 
+//   // --i decrements the value, then evaluates and stores it.
+//   // i-- evaluates the value, then decrements and stores it.
+// }
+// console.log(sum(5));
+
+
+function sum(i) {
   console.log(i);
-  return i + sum(i--); 
-  // --i decrements the value, then evaluates and stores it.
-  // i-- evaluates the value, then decrements and stores it.
+  if (i==1){
+    return i;
+  }
+  return i + sum(--i);
 }
 console.log(sum(5));
